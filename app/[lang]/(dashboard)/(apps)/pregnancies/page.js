@@ -25,7 +25,7 @@ const Pregnancies = () => {
           <h3 class="text-lg font-semibold">Pregnancies</h3>
           <div class="flex items-center ml-auto space-x-2">
             <TextInput placeholder="Search..." />
-            <Button leftSection={<IconPlus size={18} />}>New</Button>
+            <Button variant="outline" leftSection={<IconPlus size={18} />}>New</Button>
           </div>
         </div>
 
