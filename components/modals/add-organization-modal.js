@@ -104,21 +104,21 @@ function AddOrganizationModal() {
         {/* Which type of an organization is this? * */}
         <Select
           label="Which type of an organization is this?"
-          placeholder="Which type of an organization is this?"
+          placeholder="Select One"
           data={["Option 1", "Option 2", "Option 3", "Option 4"]}
           searchable
         />
 
         <Select
           label="Is this organization a health facility?"
-          placeholder="Is this organization a health facility?"
+          placeholder="Select One"
           data={["Option 1", "Option 2", "Option 3", "Option 4"]}
           searchable
         />
 
 <Select
           label="If yes, please select type:"
-          placeholder="If yes, please select type:"
+          placeholder="Select One"
           data={["Option 1", "Option 2", "Option 3", "Option 4"]}
           searchable
         />
