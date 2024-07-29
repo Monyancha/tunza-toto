@@ -2066,7 +2066,7 @@ export const menusConfig = {
           },
           {
             title: "New Pregnancy",
-            href: "/new-pregnancy",
+            href: "/pregnancies",
           },
           
           
@@ -2081,12 +2081,12 @@ export const menusConfig = {
       {
         title: "Health Conditions",
         icon: Envelope,
-        href: "/payments",
+        href: "/profiles",
       },
       {
         title: "Update Profile",
         icon: Envelope,
-        href: "/profile-settings",
+        href: "/user-profile",
       },
      
      

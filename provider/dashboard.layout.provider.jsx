@@ -100,7 +100,7 @@ const DashBoardLayoutProvider = ({ children, trans }) => {
         >
           <div
             className={cn(
-              "  md:pt-6 pb-[37px] pt-[15px] md:px-6 px-4  page-min-height ",
+              "  md:pt-6 mt-5 mb-5 pb-[37px] pt-[15px] md:px-6 px-4  page-min-height ",
               {}
             )}
           >
