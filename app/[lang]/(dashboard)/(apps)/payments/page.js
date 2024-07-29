@@ -16,6 +16,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button, Card, TextInput } from "@mantine/core";
 import { IconArrowDown, IconPlus } from "@tabler/icons-react";
+import AddPaymentsModal from "@/components/modals/add-payment-modal";
 
 const Payments = () => {
   return (
@@ -25,7 +26,7 @@ const Payments = () => {
           <h3 class="text-lg font-semibold">Payments</h3>
           <div class="flex items-center ml-auto space-x-2">
             <TextInput placeholder="Search..." />
-            <Button variant="outline" leftSection={<IconPlus size={18} />}>New</Button>
+            <AddPaymentsModal />
           </div>
         </div>
 

@@ -99,7 +99,7 @@ function AddOrganizationModal() {
         onClose={() => setOpened(false)}
         padding="md"
         size="md"
-        overflow="inside"
+        // overflow="inside"
       >
         {/* Which type of an organization is this? * */}
         <Select
@@ -116,7 +116,7 @@ function AddOrganizationModal() {
           searchable
         />
 
-<Select
+        <Select
           label="If yes, please select type:"
           placeholder="Select One"
           data={["Option 1", "Option 2", "Option 3", "Option 4"]}
@@ -130,55 +130,54 @@ function AddOrganizationModal() {
           onChange={(e) => setName(e.currentTarget.value)}
         />
 
-<Select
+        <Select
           label="Country"
           placeholder="Country"
           data={["Option 1", "Option 2", "Option 3", "Option 4"]}
           searchable
         />
 
-<Select
+        <Select
           label="Region"
           placeholder="Region"
           data={["Option 1", "Option 2", "Option 3", "Option 4"]}
           searchable
         />
 
-<Select
+        <Select
           label="Town"
           placeholder="Town"
           data={["Option 1", "Option 2", "Option 3", "Option 4"]}
           searchable
         />
 
-<TextInput
+        <TextInput
           placeholder="Address"
           label="Address"
           value={name}
           onChange={(e) => setName(e.currentTarget.value)}
         />
 
-<TextInput
+        <TextInput
           placeholder="Contact Person"
           label="Contact Person"
           value={name}
           onChange={(e) => setName(e.currentTarget.value)}
         />
 
-<TextInput
+        <TextInput
           placeholder="Email"
           label="Email"
           value={name}
           onChange={(e) => setName(e.currentTarget.value)}
         />
 
-<TextInput
+        <TextInput
           placeholder="Phone Number"
           label="Phone Number"
           value={name}
           onChange={(e) => setName(e.currentTarget.value)}
         />
-
 
         <section className="flex justify-end space-y-2 bg-light p-3 rounded-lg my-3">
           <Button onClick={handleSubmit} loading={loading}>
