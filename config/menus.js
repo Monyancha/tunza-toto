@@ -2059,19 +2059,7 @@ export const menusConfig = {
       {
         title: "Maternal Journey",
         icon: Sheild,
-        child: [
-          {
-            title: "All Pregnancies",
-            href: "/pregnancies",
-          },
-          {
-            title: "New Pregnancy",
-            href: "/pregnancies",
-          },
-          
-          
-          
-        ],
+        href: "/pregnancies",
       },
       {
         title: "Payments",

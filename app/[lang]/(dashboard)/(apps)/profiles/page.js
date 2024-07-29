@@ -16,6 +16,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button, Card, TextInput } from "@mantine/core";
 import { IconArrowDown, IconPlus } from "@tabler/icons-react";
+import AddProfileModal from "@/components/modals/add-profile-modal";
+
 
 const Profiles = () => {
   return (
@@ -25,7 +27,7 @@ const Profiles = () => {
           <h3 class="text-lg font-semibold">Profiles</h3>
           <div class="flex items-center ml-auto space-x-2">
             <TextInput placeholder="Search..." />
-            <Button variant="outline" leftSection={<IconPlus size={18} />}>New</Button>
+            <AddProfileModal />
           </div>
         </div>
 
