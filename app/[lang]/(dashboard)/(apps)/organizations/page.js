@@ -16,6 +16,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button, Card, TextInput } from "@mantine/core";
 import { IconArrowDown, IconEdit, IconPlus } from "@tabler/icons-react";
+import AddOrganizationModal from "@/components/modals/add-organization-modal";
 
 const Organizations = () => {
   return (
@@ -25,7 +26,7 @@ const Organizations = () => {
           <h3 class="text-lg font-semibold">Organizations</h3>
           <div class="flex items-center ml-auto space-x-2">
             <TextInput placeholder="Search..." />
-            <Button variant="outline" leftSection={<IconPlus size={18} />}>New</Button>
+            <AddOrganizationModal />
           </div>
         </div>
 
