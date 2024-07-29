@@ -20,9 +20,9 @@ const DashBoardLayoutProvider = ({ children, trans }) => {
   const location = usePathname();
   const isMobile = useMediaQuery("(min-width: 768px)");
   const mounted = useMounted();
-  if (!mounted) {
-    return <LayoutLoader />;
-  }
+  // if (!mounted) {
+  //   return <LayoutLoader />;
+  // }
   if (layout === "semibox") {
     return (
       <>
