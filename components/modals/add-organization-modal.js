@@ -99,7 +99,7 @@ function AddOrganizationModal() {
         onClose={() => setOpened(false)}
         padding="md"
         size="md"
-        overflow="hidden"
+        overflow="inside"
       >
         {/* Which type of an organization is this? * */}
         <Select
